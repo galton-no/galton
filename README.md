@@ -14,4 +14,4 @@ This is the process almost from scratch, assuming you're on a Mac and have insta
 8. Navigate into the project: `cd galton`.
 9. Install the required packages: `pip install -r requirements.txt`.
 10. Start the development webserver: `python manage.py runserver`.
-11. Visit http://localhost:8000/.
+11. Visit [http://localhost:8000/](http://localhost:8000/).
