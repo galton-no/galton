@@ -1,5 +1,7 @@
 # Galton
 
+[![Build Status](https://scrutinizer-ci.com/g/galton-no/galton/badges/build.png?b=master)](https://scrutinizer-ci.com/g/galton-no/galton/build-status/master)
+
 ## How can I set up a development environment?
 
 This is the process almost from scratch, assuming you're on a Mac and have installed Homebrew already.
