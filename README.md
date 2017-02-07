@@ -1,6 +1,7 @@
 # Galton
 
 [![Build Status](https://scrutinizer-ci.com/g/galton-no/galton/badges/build.png?b=master)](https://scrutinizer-ci.com/g/galton-no/galton/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/galton-no/galton/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/galton-no/galton/?branch=master)
 
 ## How can I set up a development environment?
 
