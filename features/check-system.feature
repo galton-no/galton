@@ -5,4 +5,4 @@ Feature: Check system
 
   Scenario: No arguments
     When I run "python manage.py check"
-    Then I see "System check identified no issues (1 silenced)."
+    Then I see "System check identified no issues"
