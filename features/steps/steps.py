@@ -10,3 +10,11 @@ def step_impl(context, command):
 @step('I see "{output}"')
 def step_impl(context, output):
     context.child.expect(output)
+
+
+@step('there are "{count}" Twitter statuses')
+def step_impl(context, count):
+    """
+    :type context: behave.runner.Context
+    """
+    from incidents.models import TwitterStatus
