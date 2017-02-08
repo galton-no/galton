@@ -5,5 +5,6 @@ Feature: Import Twitter statuses
 
   Scenario: No tweets in the database
     Given there are "0" Twitter statuses
-    When I run "python incidents/import-twitter-statuses.py --screen_name oslopolitiops"
-    Then there are "3200" Twitter statuses
+    When I run "python manage.py import-twitter-statuses oslopolitiops"
+    Then I see "Importing Twitter statuses"
+    And there are "3200" Twitter statuses

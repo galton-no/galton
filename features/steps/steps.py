@@ -18,3 +18,5 @@ def step_impl(context, count):
     :type context: behave.runner.Context
     """
     from incidents.models import TwitterStatus
+
+    assert TwitterStatus.objects.count() is int(count)
