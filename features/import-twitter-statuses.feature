@@ -7,4 +7,4 @@ Feature: Import Twitter statuses
     Given there are "0" Twitter statuses
     When I run "python manage.py import-twitter-statuses oslopolitiops"
     Then I see "Importing Twitter statuses"
-    And there are "3200" Twitter statuses
+    And there are "20" Twitter statuses

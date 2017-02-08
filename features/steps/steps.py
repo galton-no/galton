@@ -19,4 +19,6 @@ def step_impl(context, count):
     """
     from incidents.models import TwitterStatus
 
+    print(TwitterStatus.objects.count())
+
     assert TwitterStatus.objects.count() is int(count)
